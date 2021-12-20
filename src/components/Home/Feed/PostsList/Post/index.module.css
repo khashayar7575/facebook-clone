@@ -1,0 +1,32 @@
+.container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 15px 20px;
+  border-radius: 15px;
+  gap: 20px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.headerInfo {
+  display: flex;
+  flex-direction: column;
+}
+.headerInfo > h3 {
+  font-size: medium;
+}
+.headerInfo > p {
+  font-size: small;
+  color: gray;
+}
+
+.options {
+  border-top: 1px solid whitesmoke;
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+}

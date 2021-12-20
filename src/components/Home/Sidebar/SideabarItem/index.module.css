@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 10px;
+  padding-left: 0px;
+  cursor: pointer;
+  border-bottom: 1px solid transparent;
+}
+.container > svg {
+  color: #2e81f4;
+  font-size: xx-large;
+}
+.container:hover {
+  background-color: lightgray;
+  border-radius: 10px;
+}
+
+.container:active {
+  border-bottom-color: #2e81f4;
+}
+
+.container > span {
+  font-weight: 600;
+}

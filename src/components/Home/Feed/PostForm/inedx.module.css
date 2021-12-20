@@ -1,0 +1,37 @@
+.container {
+  background-color: white;
+  padding: 25px 10px;
+  border-radius: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.5);
+}
+.inputsContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.textInput {
+  border: none;
+  width: 100%;
+  background-color: transparent;
+  outline: none;
+}
+
+.textInputContainer {
+  padding: 10px;
+  background-color: #dadada;
+  border-radius: 10px;
+  flex: 1;
+}
+
+.actionsList {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+}

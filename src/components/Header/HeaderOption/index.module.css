@@ -1,0 +1,18 @@
+.option {
+  cursor: pointer;
+  padding: 5px 20px;
+  border-radius: 10px;
+  border-bottom: 1px solid transparent;
+}
+.option:hover svg {
+  color: #2e81f4;
+}
+.option:hover {
+  background-color: #eff2f5;
+}
+.option:active {
+  border-bottom: 1px solid #2e81f4;
+}
+.option > svg {
+  color: rgb(85, 85, 85);
+}

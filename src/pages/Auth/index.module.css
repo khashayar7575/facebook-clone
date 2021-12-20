@@ -1,0 +1,23 @@
+.container {
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginContainer {
+  border-radius: 20px;
+  height: 100%;
+  width: 100%;
+  max-width: 300px;
+  max-height: 300px;
+  padding: 20px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+  justify-content: space-between;
+}
